@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/pact landing sunk
+Photo=campaign/images/photos/cargo 1
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>OIL PYRES</b>|<b>BURNING SEAS!</b>|<b>TANKER TURMOIL</b>|<b>SOVIET FUEL DROUGHT</b>
+Color=57,61,73,255
+Sentence1=Large belching oil fires have been spotted at sea where it appears Soviet tankers have been sunk by NATO naval forces. It is unclear at this time whether this was by warships or submarines.
+Color=218,218,208,255
+Sentence2=These tankers were reported to have been full to the brim with petrochemical supplies for the Soviet war machine. The fires are still burning a few hours on.

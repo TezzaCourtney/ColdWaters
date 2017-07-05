@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/pact landing sunk
+Photo=campaign/images/photos/naval nato 2,campaign/images/photos/naval nato 4,campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 4
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>SOVIETS DENIED SUPPLIES</b>|<b>SOVIET LOGISTICS DISRUPTED</b>|<b>TRANSPORTS DEMOLISHED</b>|<b>NO RESPITE FOR REDS</b>
+Color=57,61,73,255
+Sentence1=A spokesman for NATO naval operations today revealed that an enemy logistics convoy had been successfully attacked by NATO vessels. The convoy of ships was hit hard sustained numerous losses.
+Color=218,218,208,255
+Sentence2=The success of recent NATO naval operations continues to strengthen the liberation attempt of Europe. It is clear that NATO must now continue to pressure the Soviets in their ability to supply their troops.

@@ -1,0 +1,23 @@
+NextAction=MAP
+Image=campaign/images/pact tanks
+Photo=campaign/images/photos/naval nato sub 2
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>Turning the Tide</b>
+Color=57,61,73,255
+Sentence1=NATO had failed to hold back the aggressive and overwhelming assault from the forces of the Warsaw Pact, the reduction in troop numbers deployed in 1984 had created a thin line the Bear could smash through easily with it's brute force approach.
+Color=218,218,208,255
+Sentence2=Iceland clings on as its defences hold, a hammer blow was struck on a large Warsaw Pact invasion force by NATO submariners, forcing the Soviets to look South and continue plans for the United Kingdom.
+Color=218,218,208,255
+Sentence3=Now that the UK has fallen, Iceland is now again in the spot light and looks set to fall as the Bear licks its wounds and regains strength in new found territory.
+Color=218,218,208,255
+Sentence4=A US\NATO retaliation force has left harbour and is now steaming towards the eurozone. The remaining submarine force already stationed around Iceland, must now pave the way for the resurgence of NATO and liberation efforts to begin.
+
+
+
+
+

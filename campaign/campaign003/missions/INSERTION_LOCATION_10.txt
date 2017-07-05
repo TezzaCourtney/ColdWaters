@@ -1,0 +1,49 @@
+UseTerrain=TRUE
+MapCoordinates=1598,481
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+//Enemy Ships
+NumberOfEnemyUnits=2-2,1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_skr_krivak1|wp_mpk_grisha3|wp_skr_riga,wp_skr_krivak1|wp_mpk_grisha3|wp_skr_riga,wp_ss_tango|wp_ss_romeo|wp_ss_kilo,wp_fv_trawler,wp_fv_trawler,wp_fv_trawler
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=553,270
+PlayerHeading=290
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//ASW Frigates 1
+EnemyWaypoints=568,838|885,720|246,316
+EnemyWaypoints=568,838|885,720|246,316
+//SSK1
+EnemyWaypoints=296,653|862,569|277,534
+//Trawler1
+EnemyWaypoints=459,473|550,418|420,371
+//Trawler2
+EnemyWaypoints=300,585|258,473|173,478
+//Trawler3
+EnemyWaypoints=796,296|851,190|756,169|716,254
+
+
+MissionPosition=-156,530
+
+//Enemy Aircraft
+NumberOfAircraft=1
+AircraftType=wp_il-38_may
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=1287,367,300
+
+ProximityMineLocations=66,540
+//number across,number deep,length,depth
+ProximityMineField=50,2,100,20
+ProximityMineFieldAngles=45
+ProximityMineScatter=0.4
