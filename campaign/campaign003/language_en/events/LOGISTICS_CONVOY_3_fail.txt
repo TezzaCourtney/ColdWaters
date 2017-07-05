@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/pact reinforcements
+Photo=campaign/images/photos/infantry pact 3,campaign/images/photos/infantry pact 4,campaign/images/photos/infantry pact 5
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>FUELED UP!</b>|<b>RESUPPLIED SOVIETS</b>|<b>TANKS ARE FULL</b>|<b>SOVIETS READY FOR MORE</b>
+Color=57,61,73,255
+Sentence1=News just in that a convoy of petrochemicals has arrived at <ENDLOCATION>, <COUNTRY>. This newly arrived supply of fuel will ensure the Soviets armoured brigades can stay at full strength for the immediate future.
+Color=218,218,208,255
+Sentence2=NATO now appears to be set to target the fuel storage facilities in a bid to claw back this missed opportunity at crippling the bear.

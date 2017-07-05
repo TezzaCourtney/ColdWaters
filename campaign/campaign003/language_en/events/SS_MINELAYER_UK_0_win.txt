@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato naval 1
+Photo=campaign/images/photos/cargo 1
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>CLEAR WATERS</b>|<b>MINED OUT!</b>|<b>OPEN GATES</b>|<b>BLOCKADE BLOCKERS</b>
+Color=57,61,73,255
+Sentence1=Attempts by Soviet naval forces to disrupt NATO operations in the Irish Sea have been thwarted.
+Color=218,218,208,255
+Sentence2=NATO forces can now continue to operate in this area undisrupted by mines for the time being. This will assist greatly in future operations on the UK mainland.
