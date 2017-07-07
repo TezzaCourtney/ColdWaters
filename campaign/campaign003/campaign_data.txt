@@ -1,5 +1,5 @@
 [General]
-MapImage=campaign/maps/norwegian_sea_chart.png
+MapImage=campaign/maps/norwegian_sea_chart_resurgence.png
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
@@ -18,7 +18,7 @@ PortImage=campaign/images/port holy loch
 TransitImage=campaign/images/nato submarine
 TimePenaltyOnSunk=12
 DisruptTime=48,72
-CampaignPoints=600
+CampaignPoints=400
 CampaignStartPoints=100
 PlayerPositionOnLeavePort=-272,143
 
@@ -38,7 +38,7 @@ SosusBarrier=campaign/images/sprites/sosus.png
 UseLandWar=TRUE
 IconsInOccupiedZonesOnly=FALSE
 HoursToNextGeneralEvent=48
-HoursToNextGeneralEventRange=48,168
+HoursToNextGeneralEventRange=48,144
 FirstOccupiedTerritory=UK1
 TerritoryTakebackThreshold=5
 NewFrontProbability=0.3
@@ -82,7 +82,7 @@ DetectionRange=2000
 Alignment=ENEMY
 Function=NAVAL_BASE,INSERTION_TARGET
 BaseMapPosition=-224,-198
-MissionTypes=ASW_PATROL
+MissionTypes=ASW_PATROL,SS_PATROL,SSN_PATROL
 LinksToWaypoint=IG7
 LinksToRegionWaypoint=UK1
 
@@ -176,7 +176,7 @@ AircraftTypeInvaded=us_p3c_orion
 AircraftPrepTime=10
 AircraftHeadings=300,0
 AircraftSearchRange=700
-MissionTypes=ASW_PATROL,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,RESUPPLY_CONVOY,SSBN_PATROL,LOGISTICS_CONVOY
+MissionTypes=ASW_PATROL,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,RESUPPLY_CONVOY,SSBN_PATROL,LOGISTICS_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,SSBN_PATROL_A
 LinksToWaypoint=SC4
 CombatCoords=1234,1234
 
@@ -189,7 +189,7 @@ AircraftTypeInvaded=us_p3c_orion
 AircraftPrepTime=15
 AircraftHeadings=330,0
 AircraftSearchRange=700
-MissionTypes=RESUPPLY_CONVOY,LOGISTICS_CONVOY,SAG,ASW_PATROL
+MissionTypes=RESUPPLY_CONVOY,LOGISTICS_CONVOY,SAG,ASW_PATROL,SHIP_RESUPPLY,SUB_RESUPPLY
 LinksToWaypoint=SC1
 CombatCoords=1234,1234
 
@@ -197,7 +197,7 @@ CombatCoords=1234,1234
 Alignment=ENEMY
 Function=NAVAL_BASE
 BaseMapPosition=423.9,21.3
-MissionTypes=SSBN_PATROL
+MissionTypes=SSBN_PATROL,SSBN_PATROL_A,SHIP_RESUPPLY,SUB_RESUPPLY,RESUPPLY_CONVOY,LOGISTICS_CONVOY,SAG,ASW_PATROL
 LinksToWaypoint=SC3
 CombatCoords=1234,1234
 
@@ -277,10 +277,10 @@ LinksToRegionWaypoint=UK4
 [PLAYER MISSIONS]
 //Last mission is the FINAL MISSION for the campaign
 //Second to last mission is simple RETURN TO BASE
-PlayerMissionTypes=SS_MINELAYER_UK,INSERTION,SSN_WOLFPACK,SS_WOLFPACK,ASUW_STRIKE,RESUPPLY_CONVOY,LOGISTICS_CONVOY,RETURN_TO_BASE,SSBN_PATROL
+PlayerMissionTypes=SS_MINELAYER_UK,INSERTION,SSN_WOLFPACK,SS_WOLFPACK,ASUW_STRIKE,RESUPPLY_CONVOY,LOGISTICS_CONVOY,SUB_RESUPPLY,SHIP_RESUPPLY,SSBN_PATROL_A,RETURN_TO_BASE,SSBN_PATROL
 //Last two missions are not included on frequency list
-PlayerMissionFrequency=0.1,0.1,0.1,0.1,0.1,0.1,0.2
-PlayerMissionThreshold=0.5,0.5,0.5,0.5,0.5,0.5,0.0
+PlayerMissionFrequency=0.2,0.1,0.3,0.3,0.2,0.1,0.4,0.2,0.2,0.2
+PlayerMissionThreshold=0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 
 CommandoLoadTime=120
 
@@ -293,7 +293,9 @@ Mission=SSN_WOLFPACK_1
 Mission=SSN_WOLFPACK_2
 Mission=SSN_WOLFPACK_3
 Mission=SSN_WOLFPACK_4
+Mission=SSN_WOLFPACK_5
 Mission=SS_WOLFPACK_0
+Mission=SS_WOLFPACK_1
 Mission=ASUW_STRIKE_0
 Mission=ASUW_STRIKE_1
 Mission=ASUW_STRIKE_2
@@ -303,14 +305,16 @@ Mission=ASUW_STRIKE_5
 Mission=ASUW_STRIKE_6
 Mission=RESUPPLY_CONVOY_0
 Mission=RESUPPLY_CONVOY_1
+Mission=SHIP_RESUPPLY_0
+Mission=SUB_RESUPPLY_0
 Mission=LOGISTICS_CONVOY_0
 Mission=LOGISTICS_CONVOY_1
 Mission=LOGISTICS_CONVOY_2
 Mission=LOGISTICS_CONVOY_3
 Mission=RETURN_TO_BASE
 Mission=SSBN_PATROL_0
-Mission=SSBN_PATROL_1
-Mission=SSBN_PATROL_2
+Mission=SSBN_PATROL_A_0
+Mission=SSBN_PATROL_A_1
 
 
 [NON-PLAYER MISSIONS]
