@@ -54,14 +54,16 @@ LabelPosition=265.7,-201.2
 LabelName=Helsinki
 LabelPosition=354,-230.2
 LabelName=Leningrad
-LabelPosition=-258.0,-300.0
+LabelPosition=-258.0,-292.0
 LabelName=Plymouth
-LabelPosition=-205.0,-321.0
+LabelPosition=-205.0,-313.0
 LabelName=Portsmouth
-LabelPosition=-176.0,-200.0
+LabelPosition=-176.0,-196.0
 LabelName=Lossiemouth
-LabelPosition=-163.0,-304.0
+LabelPosition=-163.0,-298.0
 LabelName=Mildenhall
+LabelPosition=-34.00,179.00
+LabelName=Jan Mayan Island
 
 [MARKERS]
 Color=0,255,0,255
@@ -90,6 +92,7 @@ LocationMarkerPosition=-258.0,-304.0
 LocationMarkerPosition=-205.0,-322.0
 LocationMarkerPosition=-176.00,-204.00
 LocationMarkerPosition=-163.00,-307.00
+LocationMarkerPosition=-34.00,173.00
 
 [COUNTRY LABELS]
 Color=0,0,0,255
@@ -142,7 +145,12 @@ LabelPosition=80.8,264.7
 LabelName=GREENLAND SEA
 LabelPosition=195.4,-249.5
 LabelName=BALTIC\nSEA
-LabelPosition=-216.0,-336.0
+LabelPosition=-230.0,-336.0
 LabelName=ENGLISH CHANNEL
-LabelPosition=-234.0,-232.0
+LabelPosition=-265.0,-220.0
 LabelName=IRISH\nSEA
+LabelPosition=568.0,212.0
+LabelName=KARA\nSEA
+Size=16
+LabelPosition=-150.0,16.0
+LabelName=GIUK GAP
