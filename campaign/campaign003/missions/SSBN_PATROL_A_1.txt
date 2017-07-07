@@ -1,8 +1,8 @@
 MissionType=SSBN_PATROL
-HoursToStart=0,12
+HoursToStart=12,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
-EndLocation=WAYPOINT
+EndLocation=NAVAL_BASE
 EndAlignment=
 Speed=10
 MustUseWaypoints=
