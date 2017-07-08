@@ -1,4 +1,4 @@
-MissionType=SSBN_PATROL
+MissionType=SSBN_PATROL_A
 HoursToStart=12,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -18,6 +18,6 @@ InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-1,2-3,1-1
-CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE,FALSE,FALSE
 EnemyShipClasses=wp_ssbn_typhoon|wp_ssbn_delta4|wp_ssbn_delta3|wp_ssbn_yankee,wp_ssn_sierra|wp_ssn_alfa|wp_ssn_victor3|wp_ssn_victor2|wp_ssn_victor1,wp_bpk_udaloy|wp_bpk_kresta2|wp_bpk_kara|wp_skr_krivak1|wp_mpk_grisha3|wp_bpk_kashin|wp_bpk_kanin|wp_em_kotlin|wp_em_sovremenny,wp_pb_don|wp_pb_ugra

@@ -16,97 +16,105 @@ WaypointName=WG1
 WaypointPosition=1.2,-367.1
 Alignment=ENEMY
 ConnectedZones=WG2,WG3
-InvadedBy=LAND,FRIENDLY
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Bremen and Hamburg
 WaypointName=WG2
 WaypointPosition=1.2,-330.8
 Alignment=ENEMY
 ConnectedZones=D1,WG1,WG3
-InvadedBy=LAND,FRIENDLY
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //North Rhine-Westphalia
 WaypointName=WG3
 WaypointPosition=-41.2,-361.5
-Alignment=ENEMY
+Alignment=LAND,ENEMY
 ConnectedZones=N1,WG1,WG2,ND1,B1
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Amsterdam
 WaypointName=ND1
 WaypointPosition=-67.8,-342.1
 Alignment=ENEMY
 ConnectedZones=B1,WG3
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Brussels, Antwerp and Charleroi
 WaypointName=B1
 WaypointPosition=-94.9,-368.7
 Alignment=ENEMY
 ConnectedZones=ND1,WG3
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Copenhagen
 WaypointName=D1
 WaypointPosition=8.9,-278.7
 Alignment=ENEMY
 ConnectedZones=WG2
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //northern Norway
 WaypointName=N1
 WaypointPosition=271.7,57
 Alignment=ENEMY
 ConnectedZones=N2
-InvadedBy=LAND,FRIENDLY
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Andoya
 WaypointName=N2
 WaypointPosition=208,30.2
 Alignment=ENEMY
 ConnectedZones=N1,N3
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Narvik
 WaypointName=N3
 WaypointPosition=199,-1.1
 Alignment=ENEMY
 ConnectedZones=N2,N4
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //central Norway
 WaypointName=N4
 WaypointPosition=146.7,-46.9
 Alignment=ENEMY
 ConnectedZones=N3,N5
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Trondheim
 WaypointName=N5
 WaypointPosition=102.9,-92.8
 Alignment=ENEMY
 ConnectedZones=N4,N6,N7
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Bergen
 WaypointName=N6
 WaypointPosition=15.1,-133.2
 Alignment=ENEMY
 ConnectedZones=N5,N7
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Oslo
 WaypointName=N7
 WaypointPosition=29.8,-187.7
 Alignment=ENEMY
 ConnectedZones=N5,N6
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Stockholm
 WaypointName=S1
 WaypointPosition=139.22,-226.25
 Alignment=ENEMY
 ConnectedZones=S2
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,FRIENDLY,ENEMY
 
 //Central Sweden
 WaypointName=S2
 WaypointPosition=105.9,-179.8
 Alignment=ENEMY
 ConnectedZones=S1,N7
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //United Kingdom
 //Glasgow
@@ -114,27 +122,28 @@ WaypointName=UK1
 WaypointPosition=-199,-186
 Alignment=ENEMY
 ConnectedZones=UK2
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Manchester
 WaypointName=UK2
 WaypointPosition=-191,-252
 Alignment=ENEMY
 ConnectedZones=UK1,UK2
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Bristol
 WaypointName=UK3
 WaypointPosition=-219,-298
 Alignment=ENEMY
 ConnectedZones=UK2,UK4
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //London
 WaypointName=UK4
 WaypointPosition=-178,-319
 Alignment=ENEMY
 ConnectedZones=UK3,UK2
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Northern Ireland
 //Belfast
@@ -142,7 +151,7 @@ WaypointName=NI1
 WaypointPosition=-233,-198
 Alignment=ENEMY
 ConnectedZones=IR1,IR2
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Ireland
 //Dublin
@@ -150,13 +159,14 @@ WaypointName=IR1
 WaypointPosition=-254,-216
 Alignment=ENEMY
 ConnectedZones=NI1,IR2
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Galway
 WaypointName=IR2
 WaypointPosition=-291,-199
 Alignment=ENEMY
 ConnectedZones=NI1,IR1
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //France
 //Caen
@@ -164,7 +174,7 @@ WaypointName=F1
 WaypointPosition=-202,-374
 Alignment=ENEMY
 ConnectedZones=B1
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //East Germany
 //Dresden
@@ -172,12 +182,14 @@ WaypointName=EG1
 WaypointPosition=57,-376
 Alignment=ENEMY
 ConnectedZones=WG1,WG2,EG2
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Berlin
 WaypointName=EG2
 WaypointPosition=56,-357
 Alignment=ENEMY
 ConnectedZones=WG2,WG1,EG1
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Poland
 //Poznan
@@ -185,15 +197,18 @@ WaypointName=PL1
 WaypointPosition=131,-366
 Alignment=ENEMY
 ConnectedZones=EG1,EG2,PL2
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Warsaw
 WaypointName=PL2
 WaypointPosition=197,-366
 Alignment=ENEMY
 ConnectedZones=PL1
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Kaliningrad
 WaypointName=K1
 WaypointPosition=209,-343
 Alignment=ENEMY
 ConnectedZones=PL2
+InvadedBy=LAND,FRIENDLY,ENEMY
