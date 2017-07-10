@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato victory 1
+Photo=campaign/images/photos/naval pact 6
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>EYES OPEN</b>|<b>ELECTRONIC FLASHLIGHTS</b>|<b>SNIFFER DOGS</b>
+Color=57,61,73,255
+Sentence1=In recent weeks the Soviets have been stepping up their attempts to gather crtical information on NATO movements, including using state of the art electronic warfare techniques. 
+Color=218,218,208,255
+Sentence2=Despite hard fought efforts to find and destroy these assets, NATO have admitted that they have been unable to catch any of them, meaning these vessels are still at large providing valuable information to the Soviet war machine.
