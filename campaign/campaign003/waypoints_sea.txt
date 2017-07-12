@@ -46,14 +46,14 @@ WestWaypoints=
 //the Polar region
 WaypointName=P1
 WaypointPosition=323,381.2,40
-SouthWaypoints=B2
+SouthWaypoints=B2,SV2
 WestWaypoints=P2
 SubmarineOnly=TRUE
 
 //the Polar region
 WaypointName=P2
 WaypointPosition=155.2,355.2,60
-SouthWaypoints=N3
+SouthWaypoints=N3,SV4
 WestWaypoints=P1
 SubmarineOnly=TRUE
 
@@ -320,15 +320,50 @@ SouthWaypoints=IS2
 //the Kara Sea
 WaypointName=K1
 WaypointPosition=530.00,358.00,30
+SouthWaypoints=K2
+WestWaypoints=B2
 
 //the Kara Sea
 WaypointName=K2
 WaypointPosition=586.00,300.00,50
+NorthWaypoints=K1
+SouthWaypoints=K3
 
 //the Kara Sea
 WaypointName=K3
 WaypointPosition=577.00,199.00,50
+NorthWaypoints=K2
+SouthWaypoints=K4
 
 //the Kara Sea
 WaypointName=K4
 WaypointPosition=571.00,117.00,15
+NorthWaypoints=K3
+WestWaypoints=SC3,SC4,B1
+
+//the Svalbard Coast
+WaypointName=SV1
+WaypointPosition=237.00,248.00,10
+WestWaypoints=N3
+SouthWaypoints=B1,N1
+
+//the Svalbard Coast
+WaypointName=SV2
+WaypointPosition=195.00,280,10
+WestWaypoints=N3
+SouthWaypoints=N1
+NorthWaypoints=P2,SV3
+
+//the Svalbard Coast
+WaypointName=SV3
+WaypointPosition=221.0,338.0,10
+SouthWaypoints=SV2
+WestWaypoints=P2,N3
+EastWaypoints=P1
+
+//the Svalbard Coast
+WaypointName=SV4
+WaypointPosition=262.0,295.0,10
+EastWaypoints=B2
+NorthWaypoints=P1
+SouthWaypoints=B1,SV1

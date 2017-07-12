@@ -121,11 +121,12 @@ LabelPosition=9,-276.2
 LabelName=DENMARK
 LabelPosition=-298.0,-223.0
 LabelName=IRELAND
+LabelPosition=233.0,301.0
+LabelName=SVALBARD
 Size=26
 LabelPosition=477.3,-285.5
 LabelName=SOVIET\nUNION
-LabelPosition=233.0,301.0
-LabelName=SVALBARD
+
 
 [OCEANS AND SEAS LABELS]
 Color=43,71,97,255
